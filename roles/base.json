@@ -1,0 +1,10 @@
+{
+  "name": "base",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[time-zone]",
+    "recipe[user]",
+    "recipe[git]"
+  ]
+}
